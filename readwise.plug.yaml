@@ -1,0 +1,12 @@
+name: readwise
+requiredPermissions:
+  - fetch
+functions:
+  getBooks:
+    path: readwise.ts:getBooks
+    events:
+      - query:rwbook
+  getHighlights:
+    path: readwise.ts:getHighlights
+    events:
+      - query:rwhighlight

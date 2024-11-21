@@ -1,0 +1,5 @@
+{
+  "imports": {
+    "$sb/": "https://deno.land/x/silverbullet@0.10.1/plug-api/"
+  }
+}
